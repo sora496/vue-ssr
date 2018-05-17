@@ -15,6 +15,7 @@ const app = new Vue({
     console.log(this, 'created')
   },
   beforeMount () {
+    // 在插入之前
     console.log(this, 'beforeMount')
   },
   mounted () {
